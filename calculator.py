@@ -1,3 +1,4 @@
+#Importing necessary modules
 from tkinter import *;
 from tkinter import messagebox;
 
@@ -164,6 +165,7 @@ def actionDiv():
     else:
         messagebox.showerror("Error", "Enter a Valid number\ne.g. 123, 0.123, .123, -0.123, 123.456")
 
+#Desktop UI starts from here
 root = Tk();
 root.title('My First Python Calculator');
 root.geometry('380x300+200+250');
